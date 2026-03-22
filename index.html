@@ -5,12 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Clínica Odontológica Brunete en Cartagena. Ortodoncia, implantología, estética dental y más. Llámanos: 968 088 576">
   <title>Clínica Odontológica Brunete | Dentista en Cartagena</title>
+  <meta name="theme-color" content="#3DD100">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
 
   <!-- ======== HEADER ======== -->
   <header class="header" id="header">
@@ -68,7 +71,7 @@
     </nav>
   </header>
 
-  <main>
+  <main id="main-content">
     <!-- ======== HERO ======== -->
     <section class="hero" id="inicio" aria-label="Presentación">
       <div class="container hero__inner">
@@ -300,11 +303,11 @@
           <div class="newsletter__fields">
             <div class="form-group">
               <label for="nl-name" class="sr-only">Nombre</label>
-              <input type="text" id="nl-name" name="name" placeholder="Tu nombre" required class="input">
+              <input type="text" id="nl-name" name="name" placeholder="Tu nombre…" autocomplete="name" required class="input">
             </div>
             <div class="form-group">
               <label for="nl-email" class="sr-only">Email</label>
-              <input type="email" id="nl-email" name="email" placeholder="Tu email" required class="input">
+              <input type="email" id="nl-email" name="email" placeholder="Tu email…" autocomplete="email" spellcheck="false" required class="input">
             </div>
             <button type="submit" class="btn">Suscribirse</button>
           </div>
@@ -366,19 +369,19 @@
           <div class="contact__grid">
             <div class="form-group">
               <label for="contact-nombre">Nombre <span class="required" aria-label="obligatorio">*</span></label>
-              <input type="text" id="contact-nombre" name="nombre" required class="input">
+              <input type="text" id="contact-nombre" name="nombre" autocomplete="given-name" required class="input">
             </div>
             <div class="form-group">
               <label for="contact-apellidos">Apellidos <span class="required" aria-label="obligatorio">*</span></label>
-              <input type="text" id="contact-apellidos" name="apellidos" required class="input">
+              <input type="text" id="contact-apellidos" name="apellidos" autocomplete="family-name" required class="input">
             </div>
             <div class="form-group">
               <label for="contact-telefono">Teléfono</label>
-              <input type="tel" id="contact-telefono" name="telefono" class="input">
+              <input type="tel" id="contact-telefono" name="telefono" autocomplete="tel" inputmode="tel" class="input">
             </div>
             <div class="form-group">
               <label for="contact-email">Email <span class="required" aria-label="obligatorio">*</span></label>
-              <input type="email" id="contact-email" name="email" required class="input">
+              <input type="email" id="contact-email" name="email" autocomplete="email" spellcheck="false" required class="input">
             </div>
             <div class="form-group form-group--full">
               <label for="contact-mensaje">Mensaje <span class="required" aria-label="obligatorio">*</span></label>
