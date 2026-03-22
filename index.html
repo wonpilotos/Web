@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clínica Odontológica Brunete en Cartagena. Ortodoncia, implantología, estética dental y más. Llámanos: 968 088 576">
+  <title>Clínica Odontológica Brunete | Dentista en Cartagena</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ======== HEADER ======== -->
+  <header class="header" id="header">
+    <div class="header__top">
+      <div class="container header__top-inner">
+        <div class="header__phones" aria-label="Teléfonos de contacto">
+          <a href="tel:968088576" class="header__phone">968 088 576</a>
+          <span class="header__phone-sep" aria-hidden="true">/</span>
+          <a href="tel:646824957" class="header__phone">646 82 49 57</a>
+        </div>
+        <a href="#contacto" class="btn btn--sm">Pide tu cita</a>
+      </div>
+    </div>
+    <nav class="header__nav" aria-label="Navegación principal">
+      <div class="container header__nav-inner">
+        <a href="#" class="header__logo" aria-label="Clínica Odontológica Brunete — Inicio">
+          <div class="logo">
+            <span class="logo__letters">CBD</span>
+          </div>
+        </a>
+        <button class="header__toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Abrir menú">
+          <span class="header__toggle-bar"></span>
+          <span class="header__toggle-bar"></span>
+          <span class="header__toggle-bar"></span>
+        </button>
+        <ul class="nav" id="main-menu" role="menubar">
+          <li class="nav__item" role="none"><a href="#" class="nav__link" role="menuitem">Inicio</a></li>
+          <li class="nav__item" role="none"><a href="#quienes-somos" class="nav__link" role="menuitem">Equipo</a></li>
+          <li class="nav__item" role="none"><a href="#clinica" class="nav__link" role="menuitem">Clínica</a></li>
+          <li class="nav__item" role="none"><a href="#financiacion" class="nav__link" role="menuitem">Financiación</a></li>
+          <li class="nav__item nav__item--dropdown" role="none">
+            <button class="nav__link nav__link--dropdown" role="menuitem" aria-expanded="false" aria-haspopup="true">
+              Servicios
+              <svg class="nav__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true">
+                <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <ul class="nav__dropdown" role="menu" aria-label="Servicios">
+              <li role="none"><a href="#servicios" class="nav__dropdown-link" role="menuitem">Ortodoncia</a></li>
+              <li role="none"><a href="#servicios" class="nav__dropdown-link" role="menuitem">Implantología</a></li>
+              <li role="none"><a href="#servicios" class="nav__dropdown-link" role="menuitem">Odontología General</a></li>
+              <li role="none"><a href="#servicios" class="nav__dropdown-link" role="menuitem">Blanqueamiento</a></li>
+              <li role="none"><a href="#servicios" class="nav__dropdown-link" role="menuitem">Endodoncia</a></li>
+              <li role="none"><a href="#servicios" class="nav__dropdown-link" role="menuitem">Periodoncia</a></li>
+              <li role="none"><a href="#servicios" class="nav__dropdown-link" role="menuitem">Bruxismo</a></li>
+              <li role="none"><a href="#servicios" class="nav__dropdown-link" role="menuitem">Estética Dental</a></li>
+              <li role="none"><a href="#servicios" class="nav__dropdown-link" role="menuitem">Higiene Bucodental</a></li>
+              <li role="none"><a href="#servicios" class="nav__dropdown-link" role="menuitem">Prótesis Dental</a></li>
+            </ul>
+          </li>
+          <li class="nav__item" role="none"><a href="#blog" class="nav__link" role="menuitem">Blog</a></li>
+          <li class="nav__item" role="none"><a href="#contacto" class="nav__link" role="menuitem">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ======== HERO ======== -->
+    <section class="hero" id="inicio" aria-label="Presentación">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">Tu sonrisa,<br>nuestra pasión</h1>
+          <p class="hero__subtitle">Cuidamos de tu salud dental con la mejor tecnología y un trato cercano en el corazón de Cartagena.</p>
+          <div class="hero__actions">
+            <a href="#contacto" class="btn btn--lg">Pide tu cita</a>
+            <a href="tel:968088576" class="btn btn--outline btn--lg">Llámanos</a>
+          </div>
+        </div>
+        <div class="hero__image" aria-hidden="true">
+          <div class="hero__image-placeholder">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2C7.58 2 4 5.58 4 10c0 2.12.84 4.04 2.2 5.46L12 22l5.8-6.54C19.16 14.04 20 12.12 20 10c0-4.42-3.58-8-8-8z"/>
+              <path d="M9 10c0-1.1.45-2.1 1.17-2.83"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== WHO WE ARE ======== -->
+    <section class="about" id="quienes-somos" aria-labelledby="about-title">
+      <div class="container about__inner">
+        <div class="about__text">
+          <span class="section-tag">Quiénes somos</span>
+          <h2 class="section-title" id="about-title">Conoce nuestra clínica</h2>
+          <p class="about__desc">En Clínica Odontológica Brunete llevamos años ayudando a los pacientes de Cartagena de forma integral, con buena comunicación y un servicio cercano.</p>
+          <a href="#contacto" class="btn">Conócenos</a>
+        </div>
+        <div class="about__image" aria-hidden="true">
+          <div class="image-placeholder image-placeholder--lg">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+              <circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+            <span>Foto de la clínica</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== SERVICES ======== -->
+    <section class="services" id="servicios" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Servicios</span>
+          <h2 class="section-title" id="services-title">Nuestros tratamientos</h2>
+        </div>
+        <div class="services__grid">
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Ortodoncia</h3>
+            <p class="card__desc">Tratamientos adaptados a cada paciente para conseguir una sonrisa alineada y funcional.</p>
+            <a href="#" class="card__link">Saber más <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Implantología</h3>
+            <p class="card__desc">Recupera los dientes perdidos con implantes de última generación y máxima durabilidad.</p>
+            <a href="#" class="card__link">Saber más <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Odontología General</h3>
+            <p class="card__desc">Endodoncia, periodoncia, bruxismo y PADI. Soluciones completas para tu salud bucal.</p>
+            <a href="#" class="card__link">Saber más <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Sedación Consciente</h3>
+            <p class="card__desc">Tratamientos cómodos sin ansiedad. Relájate mientras cuidamos de tu sonrisa.</p>
+            <a href="#" class="card__link">Saber más <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Estética Dental</h3>
+            <p class="card__desc">Blanqueamiento, carillas y diseño de sonrisa perfecta. Luce la mejor versión de ti.</p>
+            <a href="#" class="card__link">Saber más <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== WHY CHOOSE US ======== -->
+    <section class="why" id="por-que" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Ventajas</span>
+          <h2 class="section-title" id="why-title">¿Por qué elegirnos?</h2>
+        </div>
+        <div class="why__grid">
+          <div class="why__block">
+            <div class="why__icon" aria-hidden="true">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <h3 class="why__title">Horario amplio</h3>
+            <p class="why__desc">Nos adaptamos a tu agenda con un horario flexible de lunes a viernes.</p>
+          </div>
+          <div class="why__block">
+            <div class="why__icon" aria-hidden="true">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 00-3-3.87"/>
+                <path d="M16 3.13a4 4 0 010 7.75"/>
+              </svg>
+            </div>
+            <h3 class="why__title">Atención personalizada</h3>
+            <p class="why__desc">Cada paciente es único. Te escuchamos y diseñamos el tratamiento ideal para ti.</p>
+          </div>
+          <div class="why__block">
+            <div class="why__icon" aria-hidden="true">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <h3 class="why__title">Tecnología avanzada</h3>
+            <p class="why__desc">Equipos de última generación para diagnósticos precisos y tratamientos eficaces.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== BLOG PREVIEW ======== -->
+    <section class="blog" id="blog" aria-labelledby="blog-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Blog</span>
+          <h2 class="section-title" id="blog-title">Últimos artículos</h2>
+        </div>
+        <div class="blog__grid">
+
+          <article class="blog-card">
+            <div class="blog-card__image" aria-hidden="true">
+              <div class="image-placeholder">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                  <circle cx="8.5" cy="8.5" r="1.5"/>
+                  <polyline points="21 15 16 10 5 21"/>
+                </svg>
+              </div>
+            </div>
+            <div class="blog-card__body">
+              <h3 class="blog-card__title">Falsos mitos dentales</h3>
+              <p class="blog-card__excerpt">Descubre la verdad detrás de las creencias más extendidas sobre la salud bucodental.</p>
+              <a href="#" class="card__link">Leer más <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-card__image" aria-hidden="true">
+              <div class="image-placeholder">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                  <circle cx="8.5" cy="8.5" r="1.5"/>
+                  <polyline points="21 15 16 10 5 21"/>
+                </svg>
+              </div>
+            </div>
+            <div class="blog-card__body">
+              <h3 class="blog-card__title">Técnicas de blanqueamiento dental</h3>
+              <p class="blog-card__excerpt">Comparamos los métodos más efectivos para lucir unos dientes más blancos y sanos.</p>
+              <a href="#" class="card__link">Leer más <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-card__image" aria-hidden="true">
+              <div class="image-placeholder">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                  <circle cx="8.5" cy="8.5" r="1.5"/>
+                  <polyline points="21 15 16 10 5 21"/>
+                </svg>
+              </div>
+            </div>
+            <div class="blog-card__body">
+              <h3 class="blog-card__title">Todo sobre los brackets</h3>
+              <p class="blog-card__excerpt">Guía completa sobre tipos de brackets, duración del tratamiento y cuidados diarios.</p>
+              <a href="#" class="card__link">Leer más <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== NEWSLETTER ======== -->
+    <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
+      <div class="container newsletter__inner">
+        <h2 class="newsletter__title" id="newsletter-title">¿Quieres estar al día?</h2>
+        <p class="newsletter__desc">Suscríbete a nuestra newsletter y recibe consejos de salud dental directamente en tu correo.</p>
+        <form class="newsletter__form" aria-label="Formulario de suscripción">
+          <div class="newsletter__fields">
+            <div class="form-group">
+              <label for="nl-name" class="sr-only">Nombre</label>
+              <input type="text" id="nl-name" name="name" placeholder="Tu nombre" required class="input">
+            </div>
+            <div class="form-group">
+              <label for="nl-email" class="sr-only">Email</label>
+              <input type="email" id="nl-email" name="email" placeholder="Tu email" required class="input">
+            </div>
+            <button type="submit" class="btn">Suscribirse</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ======== HOURS + MAP ======== -->
+    <section class="location" id="ubicacion" aria-labelledby="location-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Encuéntranos</span>
+          <h2 class="section-title" id="location-title">Horario y ubicación</h2>
+        </div>
+        <div class="location__grid">
+          <div class="location__hours">
+            <table class="hours-table" aria-label="Horario de la clínica">
+              <thead>
+                <tr>
+                  <th scope="col">Día</th>
+                  <th scope="col">Horario</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Lunes</td><td>11:00–21:00</td></tr>
+                <tr><td>Martes</td><td>14:30–21:00</td></tr>
+                <tr><td>Miércoles</td><td>9:30–13:30 / 16:00–21:00</td></tr>
+                <tr><td>Jueves</td><td>10:30–18:30</td></tr>
+                <tr><td>Viernes</td><td>10:00–18:00</td></tr>
+                <tr class="hours-table__closed"><td>Sábado</td><td>Cerrado</td></tr>
+                <tr class="hours-table__closed"><td>Domingo</td><td>Cerrado</td></tr>
+              </tbody>
+            </table>
+            <address class="location__address">
+              C. Batalla de Zama, s/n, Local 18, 30300 Cartagena, Murcia
+            </address>
+          </div>
+          <div class="location__map" aria-label="Mapa de ubicación">
+            <div class="image-placeholder image-placeholder--lg">
+              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              <span>Mapa de Google</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== CONTACT FORM ======== -->
+    <section class="contact" id="contacto" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Contacto</span>
+          <h2 class="section-title" id="contact-title">Escríbenos</h2>
+        </div>
+        <form class="contact__form" aria-label="Formulario de contacto">
+          <div class="contact__grid">
+            <div class="form-group">
+              <label for="contact-nombre">Nombre <span class="required" aria-label="obligatorio">*</span></label>
+              <input type="text" id="contact-nombre" name="nombre" required class="input">
+            </div>
+            <div class="form-group">
+              <label for="contact-apellidos">Apellidos <span class="required" aria-label="obligatorio">*</span></label>
+              <input type="text" id="contact-apellidos" name="apellidos" required class="input">
+            </div>
+            <div class="form-group">
+              <label for="contact-telefono">Teléfono</label>
+              <input type="tel" id="contact-telefono" name="telefono" class="input">
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email <span class="required" aria-label="obligatorio">*</span></label>
+              <input type="email" id="contact-email" name="email" required class="input">
+            </div>
+            <div class="form-group form-group--full">
+              <label for="contact-mensaje">Mensaje <span class="required" aria-label="obligatorio">*</span></label>
+              <textarea id="contact-mensaje" name="mensaje" rows="5" required class="input"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn--lg">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+
+      <div class="footer__col">
+        <div class="footer__logo">
+          <div class="logo logo--sm">
+            <span class="logo__letters">CBD</span>
+          </div>
+        </div>
+        <p class="footer__desc">Clínica Odontológica Brunete. Tu clínica dental de confianza en Cartagena, con más de 20 años cuidando sonrisas.</p>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__heading">Servicios</h3>
+        <ul class="footer__links">
+          <li><a href="#servicios">Ortodoncia</a></li>
+          <li><a href="#servicios">Implantología</a></li>
+          <li><a href="#servicios">Odontología General</a></li>
+          <li><a href="#servicios">Blanqueamiento</a></li>
+          <li><a href="#servicios">Endodoncia</a></li>
+          <li><a href="#servicios">Periodoncia</a></li>
+          <li><a href="#servicios">Estética Dental</a></li>
+          <li><a href="#servicios">Prótesis Dental</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__heading">Contacto</h3>
+        <address class="footer__contact">
+          <p>C. Batalla de Zama, s/n, Local 18,<br>30300 Cartagena, Murcia</p>
+          <p>
+            <a href="tel:968088576">968 088 576</a><br>
+            <a href="tel:646824957">646 82 49 57</a>
+          </p>
+          <p>
+            <a href="https://facebook.com/brunetedental" target="_blank" rel="noopener noreferrer">facebook.com/brunetedental</a>
+          </p>
+        </address>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__heading">Horario</h3>
+        <ul class="footer__hours">
+          <li><span>Lunes</span> <span>11:00–21:00</span></li>
+          <li><span>Martes</span> <span>14:30–21:00</span></li>
+          <li><span>Miércoles</span> <span>9:30–13:30 / 16:00–21:00</span></li>
+          <li><span>Jueves</span> <span>10:30–18:30</span></li>
+          <li><span>Viernes</span> <span>10:00–18:00</span></li>
+          <li><span>Sáb – Dom</span> <span>Cerrado</span></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; 2025 Clínica Odontológica Brunete | <a href="#">Aviso legal</a> | <a href="#">Política de privacidad</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
